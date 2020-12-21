@@ -1,0 +1,12 @@
+.callout::before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	border: 0.9em solid transparent;
+	position: absolute;
+}
+
+.callout.top-left::before {
+	bottom: -22px;
+	border-top: 12px solid #f7fafc;
+}
